@@ -19,3 +19,10 @@ function johnLennonFacts(array) {
   
   return myArray
 }
+
+function iLoveTheBeatles(n) {
+  myArray = []
+  do {
+    myArray
+  }
+}
