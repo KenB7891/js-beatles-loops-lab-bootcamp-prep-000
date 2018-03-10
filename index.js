@@ -21,7 +21,7 @@ function johnLennonFacts(array) {
 }
 
 function iLoveTheBeatles(n) {
-  myArray = []
+  var myArray = []
   var x = n
   do {
     myArray[x-n] = "I love the Beatles"
