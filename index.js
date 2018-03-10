@@ -22,11 +22,11 @@ function johnLennonFacts(array) {
 
 function iLoveTheBeatles(n) {
   myArray = []
-  vay x = n
+  var x = n
   do {
-    myArray[0] = "I love the Beatles"
-    myArray[n] = "I love the Beatles"
-  } while (n < 15 & n > 0)
+    myArray[x-n] = "I love the Beatles"
+    n--
+  } while (n < 15 && n > -1)
   
   return myArray
 }
