@@ -24,7 +24,7 @@ function iLoveTheBeatles(n) {
   var myArray = []
   var x = n
   do {
-    myArray[x-n] = "I love the Beatles"
+    myArray[x-n] = "I love the Beatles!"
     n--
   } while (n < 15 && n > -1)
   
