@@ -17,5 +17,5 @@ function johnLennonFacts(array) {
     i++
   }
   
-  
+  return myArray
 }
